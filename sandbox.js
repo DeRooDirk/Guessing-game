@@ -13,7 +13,7 @@ document.getElementById("submitguess").onclick = function() {
     let numberGuessed = document.getElementById("guessField").value;
 
     if (numberGuessed == numberGenerated) {
-        alert("Congratz!!! You guessed it in " +
+        alert("Congratz!!! You destroyed the cube in  " +
             numberOffGuess + " geusses ");
     } else if (numberGuessed > numberGenerated)
     /* if guessed number is greater 
