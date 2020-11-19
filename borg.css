@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
     background-color: rgb(61, 126, 126);
@@ -67,4 +68,14 @@ label {
 
 .guessField {
     height: 30px;
+}
+
+video {
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+.hidden {
+    border: red;
+    display: none;
 }
