@@ -11,7 +11,7 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: rgb(61, 126, 126);
-    background-image: url(/gKW6HV.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./gKW6HV.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -67,27 +67,4 @@ label {
 
 .guessField {
     height: 30px;
-}
-
-a {
-    box-shadow: -2px 2px 15px 7px rgba(168, 224, 11, 0.5);
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-family: 'Lato', sans-serif;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 0.5em;
-    width: 20%;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.507);
-    color: rgb(201, 189, 189);
-    transition: box-shadow 0.9s
-}
-
-a:hover {
-    background-color: rgba(201, 189, 189, 0.555);
-    color: rgba(0, 0, 0, 0.507);
-    box-shadow: -2px 2px 15px 7px rgba(224, 61, 11, 0.5);
-    transition: box-shadow 0.9s
 }
