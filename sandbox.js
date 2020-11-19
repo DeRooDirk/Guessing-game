@@ -5,7 +5,9 @@ const numberGenerated = Math.floor(Math.random() * 22 + 1);
 //alert(numberGenerated);
 // counting the number of guesses 
 // made for correct Guess 
-var numberOffGuess = 1;
+var numberOffGuess = 0;
+
+
 
 document.getElementById("submitguess").onclick = function() {
 
@@ -13,6 +15,9 @@ document.getElementById("submitguess").onclick = function() {
     let numberGuessed = document.getElementById("guessField").value;
 
     if (numberGuessed == numberGenerated) {
+        var myWin = new Audio('think.wav'); {
+            myWin.play();
+        }
         alert("Congratz!!! You destroyed the cube in  " +
             numberOffGuess + " geusses ");
     } else if (numberGuessed > numberGenerated)
@@ -26,5 +31,16 @@ document.getElementById("submitguess").onclick = function() {
         alert("To low , Try a higher number ");
     }
 
-    console.log(numberGuessed);
+    if (numberOffGuess == 1) {
+        var myAudio = new Audio('redalert.wav');
+        myAudio.play();
+    } else if (numberOffGuess == 3) {
+        var myRadio = new Audio('assimilate.wav'); {
+            myRadio.play();
+        }
+    } else if (numberOffGuess == 5) {
+        var mySound = new Audio('borg.wav'); {
+            mySound.play();
+        }
+    }
 };
