@@ -11,6 +11,8 @@ var numberOffGuess = 0;
 
 document.getElementById("submitguess").onclick = function() {
 
+
+
     // number guessed by user      
     let numberGuessed = document.getElementById("guessField").value;
 
@@ -34,6 +36,7 @@ document.getElementById("submitguess").onclick = function() {
     if (numberOffGuess == 1) {
         var myAudio = new Audio('redalert.wav');
         myAudio.play();
+
     } else if (numberOffGuess == 3) {
         var myRadio = new Audio('assimilate.wav'); {
             myRadio.play();
