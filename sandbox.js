@@ -5,7 +5,7 @@ const numberGenerated = Math.floor(Math.random() * 22 + 1);
 //alert(numberGenerated);
 // counting the number of guesses 
 // made for correct Guess 
-var numberOffGuess = 0;
+var numberOffGuess = 1;
 
 
 
@@ -33,15 +33,15 @@ document.getElementById("submitguess").onclick = function() {
         alert("To low , Try a higher number ");
     }
 
-    if (numberOffGuess == 1) {
+    if (numberOffGuess == 2) {
         var myAudio = new Audio('redalert.wav');
         myAudio.play();
 
-    } else if (numberOffGuess == 3) {
+    } else if (numberOffGuess == 5) {
         var myRadio = new Audio('assimilate.wav'); {
             myRadio.play();
         }
-    } else if (numberOffGuess == 5) {
+    } else if (numberOffGuess == 6) {
         var mySound = new Audio('borg.wav'); {
             mySound.play();
         }

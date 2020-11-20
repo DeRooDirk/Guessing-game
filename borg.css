@@ -61,6 +61,7 @@ p {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 label {
@@ -69,14 +70,4 @@ label {
 
 .guessField {
     height: 30px;
-}
-
-video {
-    background-color: aliceblue;
-    margin: 10px;
-}
-
-.hidden {
-    border: red;
-    display: none;
 }
