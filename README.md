@@ -1,6 +1,6 @@
 # Guessing-game
 
-Type of Challenge: Learning Challenge
+#### Type of Challenge: Learning Challenge 
 Duration: take your time
 Deployment strategy : Github page
 Team challenge : solo
