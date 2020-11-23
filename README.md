@@ -1,4 +1,5 @@
 # Guessing-game
+A game about guessing a number between 1 and 22 as quick as possible. 
 
 #### Type of Challenge: Learning Challenge 
 * Duration: take your time
